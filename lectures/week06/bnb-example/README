@@ -1,0 +1,12 @@
+ilp.math: original ILP
+
+p0.ampl: LP relaxation of original ILP
+
+p1.ampl -- p11.ampl: the nodes in branch and bound tree.
+
+To run: please use
+
+glpsol --math p0.ampl
+
+glpsol --math <filename>
+
